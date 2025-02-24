@@ -1,1 +1,4 @@
-print("Versão 1.0 - Olá, mundo!")
+def saudacao():
+    print("Versão 2.0 - Olá, mundo!")
+
+saudacao()
