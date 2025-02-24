@@ -1,4 +1,5 @@
-def saudacao():
-    print("Versão 2.0 - Olá, mundo!")
+def saudacao(nome):
+    print(f"Versão 3.0 - Olá, {nome}!")
 
-saudacao()
+usuario = input("Digite seu nome: ")
+saudacao(usuario)
